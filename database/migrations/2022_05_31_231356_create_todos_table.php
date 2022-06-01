@@ -19,7 +19,6 @@ class CreateTodosTable extends Migration
             $table->text('task_description');
             $table->string('assign_person_name');
             $table->string('estimate_hour');
-            $table->timestamps();
         });
     }
 
